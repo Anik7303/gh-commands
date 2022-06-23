@@ -85,7 +85,7 @@ git add .
 git commit -m <message>
 ```
 #### Shortcut Method
-Instead of Using two line method you can use this oneline Shortcut Method
+Instead of Using two line method you can use this One line Shortcut Method
 ```bash
 git commit -am <message>
 ```
