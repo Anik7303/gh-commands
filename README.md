@@ -75,6 +75,21 @@ git commit -m <message>
 git commit -a # to also add modified files to commit
 ```
 
+## Shortcut for Committing Changes:
+
+#### Two Line Method
+
+```bash
+git add .
+
+git commit -m <message>
+```
+#### Shortcut Method
+Instead of Using two line method you can use this oneline Shortcut Method
+```bash
+git commit -am <message>
+```
+
 ## Removing Files:
 
 ```bash
@@ -82,7 +97,7 @@ git rm <file_name> # remove from both tracked list and directory
 git rm --cached <file_name> # removes only from tracked list
 ```
 
-## Moviing Files:
+## Moving Files:
 
 ```bash
 git mv <file_from> <file_to>
